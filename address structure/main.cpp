@@ -4,11 +4,13 @@
 //
 //  Created by maya nachiappan on 10/25/24.
 //
+#include "address.hpp"
 
-#include <iostream>
+int main() {
+    Address myAddress;
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    myAddress.input(); // takes user input of address
+    myAddress.display(); // prints user input of address
+
     return 0;
 }
