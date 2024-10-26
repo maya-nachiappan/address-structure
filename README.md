@@ -1,0 +1,1 @@
+This program allows users to enter and display their address information, including street, city, and zip code. The structure of the program is organized into separate header and implementation files for better modularity and readability.
