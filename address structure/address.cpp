@@ -8,7 +8,7 @@
 #include "address.hpp"
 #include <iostream>
 
-void Address::input() {
+namespace Address::input() {
     std::cout << "Enter street: "; // takes user input for street
     std::getline(std::cin, street);
 
@@ -19,7 +19,7 @@ void Address::input() {
     std::getline(std::cin, zipCode);
 }
 
-void Address::display() const // prints user address
+namespace Address::display() const // prints user address
 {
     std::cout << "\nAddress Details:" << std::endl;
     std::cout << "Street: " << street << std::endl;
